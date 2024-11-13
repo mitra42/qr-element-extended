@@ -1,8 +1,7 @@
 // noinspection JSPotentiallyInvalidConstructorUsage
 
-import {EL, HTMLElementExtended} from "./htmlelementextended.js";
-// TODO presumes qtcode-generator-es6 installed as peer, should probably peel this off
-// TODO as seperate repo that requires html-element-extended and qrcode-generator-es6
+import {EL, HTMLElementExtended} from "../html-element-extended/htmlelementextended.js";
+// TODO presumes qrcode-generator-es6 installed as peer
 import qrcode from "../qrcode-generator-es6/index.js";
 
 /* ---- QR Scanner component ---------------
